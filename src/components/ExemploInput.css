@@ -1,0 +1,13 @@
+#email, #senha{
+    font-weight: bold;
+    font-size: 30PX;
+  }
+  
+#inputEmail, #inputSenha{
+    background-color: #E3FFCA;
+    width: 472px;
+    height:70px;
+    border-radius: 10px;
+    border-color: #E3FFCA;
+    font-size: 30PX;
+} 

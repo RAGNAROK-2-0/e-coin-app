@@ -1,5 +1,5 @@
 
-import Inputs from "./Inputs.js";
+import Inputs from "./Input/Input.js";
 import './ExemploInput.css';
 
 

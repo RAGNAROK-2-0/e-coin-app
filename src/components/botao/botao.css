@@ -1,0 +1,89 @@
+.rosa {
+    background-color: #FAC5C5;
+    font-family: roboto;
+    border: solid;
+    border-radius: 4px;
+    border-color: #FAC5C5;
+    padding: 3px;
+    font-size: 15px;
+    box-shadow: 4px 4px 6px #00000059;
+}
+
+.verde {
+    background-color: #62DD87;
+    font-family: roboto;
+    border: solid;
+    border-radius: 4px;
+    border-color: #62DD87;
+    padding: 3px;
+    font-size: 15px;
+    box-shadow: 4px 4px 6px #00000059;
+}
+
+.verde-claro {
+    background-color: #E3FFCA;
+    font-family: roboto;
+    border: solid;
+    border-radius: 4px;
+    border-color: #E3FFCA;
+    padding: 3px;
+    font-size: 15px;
+    box-shadow: 4px 4px 6px #00000059;
+}
+
+.amarelo {
+    background-color: #FAE88D;
+    font-family: roboto;
+    border: solid;
+    border-radius: 4px;
+    border-color: #FAE88D;
+    padding: 3px;
+    font-size: 15px;
+    box-shadow: 4px 4px 6px #00000059;
+}
+
+.preto {
+    background-color: #000000;
+    font-family: roboto;
+    border: solid;
+    border-radius: 4px;
+    border-color: #000000;
+    padding: 3px;
+    font-size: 15px;
+    box-shadow: 4px 4px 6px #00000059;
+    color: #FAC5C5;
+}
+
+.transparente {
+    background-color: #fac5c500;
+    font-family: roboto;
+    border: solid;
+    border-radius: 4px;
+    border-color: #FAC5C5;
+    padding: 3px;
+    font-size: 15px;
+    box-shadow: 4px 4px 6px #00000059;
+    color: #000000;
+}
+
+.menu-rosa {
+    background-color: #fac5c500;
+    font-family: roboto;
+    border: solid;
+    border-radius: 4px;
+    border-color: #fac5c500;
+    padding: 3px;
+    font-size: 15px;
+    color: #FAC5C5;
+}
+
+.menu-preto {
+    background-color: #fac5c500;
+    font-family: roboto;
+    border: solid;
+    border-radius: 4px;
+    border-color: #fac5c500;
+    padding: 3px;
+    font-size: 15px;
+    color: #000000;
+}

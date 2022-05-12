@@ -15,9 +15,9 @@ function Botao(corBotao, link, textoBotao){
     */
 
     return (
-        <div>
+        <>
             <button class={corBotao} type="button" onclick={link} >{textoBotao}</button>
-        </div>
+        </>
     );
 
 

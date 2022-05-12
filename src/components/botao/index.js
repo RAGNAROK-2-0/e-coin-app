@@ -1,6 +1,6 @@
 import './botao.css'
 
-function Botao(corBotao, link, textoBotao){
+function Botao({ corBotao, link, textoBotao }) {
 
     /*
     corBotao possui algumas possibilidades, sendo elas:
@@ -16,7 +16,7 @@ function Botao(corBotao, link, textoBotao){
 
     return (
         <>
-            <button class={corBotao} type="button" onclick={link} >{textoBotao}</button>
+            <button className={corBotao} type="button" onClick={() => { console.log(link, 'precisa ser implementado') }}>{textoBotao}</button>
         </>
     );
 

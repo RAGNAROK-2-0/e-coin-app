@@ -1,16 +1,10 @@
-
 import Inputs from "./Input/Input.js";
-import './ExemploInput.css';
-
 
 function InputLogin() {
   return (
     <>
-    <Inputs idNome='email' nome='Email:'
-            idInput='inputEmail' tipo='text' />
-    <br/>
-    <Inputs idNome='senha' nome='Senha:'
-            idInput='inputSenha' tipo='password' />
+    <Inputs tipoLabel='negrito' titulo='Login:'
+            tamanho='dadosP' type='text'/>
     </>
     
   );

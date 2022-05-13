@@ -1,4 +1,4 @@
-import './Botao.css'
+import './botao.css'
 
 function Botao({ corBotao, link, textoBotao }) {
 
@@ -15,9 +15,7 @@ function Botao({ corBotao, link, textoBotao }) {
     */
 
     return (
-        <>
-            <button className={corBotao} type="button" onClick={() => { console.log(link, 'precisa ser implementado') }}>{textoBotao}</button>
-        </>
+        <button className={`${corBotao} pointer`} type="button" onClick={() => { console.log(link, 'precisa ser implementado') }}>{textoBotao}</button>
     );
 
 

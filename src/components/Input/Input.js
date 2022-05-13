@@ -1,10 +1,10 @@
 import './Input.css'
 
-function Input(props) {
+function Input({tipoLabel,titulo, tamanho, tipoInput}) {
   return (
     <>
-      <div id={props.idNome} className="label">{props.nome}</div>
-      <input id={props.idInput} name={props.idInput} className="input" type={props.tipo} />
+      <div className={tipoLabel}>{titulo}</div>
+      <input className={tamanho} type={tipoInput} />
     </>
   )
 }

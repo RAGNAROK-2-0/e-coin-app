@@ -1,13 +1,55 @@
-.label{
+.normal{
     font-weight: bold;
     font-size: 30PX;
-  }
-  
-.input{
+}
+
+.negrito{
+  font-weight: bold;
+  font-size: 30PX;
+}
+
+.login{
     background-color: #E3FFCA;
     width: 472px;
     height:70px;
     border-radius: 10px;
     border-color: #E3FFCA;
     font-size: 30PX;
-} 
+}
+
+.dadosP{
+  background-color: #E3FFCA;
+  width: 395px;
+  height:70px;
+  border-radius: 10px;
+  border-color: #E3FFCA;
+  font-size: 30PX;
+}
+
+.dadosM{
+  background-color: #E3FFCA;
+  width: 505px;
+  height:70px;
+  border-radius: 10px;
+  border-color: #E3FFCA;
+  font-size: 30PX;
+}
+
+.dadosG{
+  background-color: #E3FFCA;
+  width: 625px;
+  height:70px;
+  border-radius: 10px;
+  border-color: #E3FFCA;
+  font-size: 30PX;
+}
+
+
+.transferencia{
+  background-color: #E3FFCA;
+  width: 412px;
+  height:70px;
+  border-radius: 10px;
+  border-color: #E3FFCA;
+  font-size: 30PX;  
+}

@@ -1,10 +1,10 @@
 import './Input.css'
 
-function Input({tipoLabel,titulo, tamanho, tipoInput}) {
+function Input({tipoLabel,titulo, estiloComponent, tipoInput}) {
   return (
     <>
       <div className={tipoLabel}>{titulo}</div>
-      <input className={tamanho} type={tipoInput} />
+      <input className={estiloComponent} type={tipoInput} />
     </>
   )
 }

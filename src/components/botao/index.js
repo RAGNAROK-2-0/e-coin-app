@@ -1,4 +1,4 @@
-import './Botao.css'
+import './botao.css'
 
 function Botao({ corBotao, link, textoBotao }) {
 

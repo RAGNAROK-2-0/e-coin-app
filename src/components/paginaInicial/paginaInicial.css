@@ -1,0 +1,119 @@
+.pagina1{
+    background-color: black;
+    height: 581px;
+}
+
+.title1{
+    font-size: 55px;
+    color:#FAC5C5;
+    margin-left: 115px;
+    margin-top: 227px;
+    position: absolute;
+}
+
+.subtitle1{
+    font-size: 55px;
+    color:#62dd87;
+    margin-left: 167px;
+    margin-top: 306px;
+    position: absolute;
+}
+
+.gif1{
+    margin-left: 1282px;
+    margin-top: 50px;
+    position: absolute;
+    
+}
+
+.button{
+    margin-left: 857px;
+    margin-top: 392px;
+    position: absolute;
+
+}
+
+.pagina2{
+    background-color:#E3FFCA;
+    height: 780px;
+ }
+
+ .title2{
+    font-size: 60px;
+    color:#62DD87;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 1180px;
+    margin-top: 301px;
+    position: absolute;
+}
+
+.subtitle2{
+    font-size: 38px;
+    color:black;
+    margin-left: 1046px;
+    margin-top: 406px;
+    position: absolute;
+    text-align: center;
+}
+
+.gif2{
+    margin-left: 204px;
+    margin-top: 137px;
+    position: absolute;
+    
+}
+.pol1{
+    margin-left: 290px;
+    margin-top: 150px;
+    position: absolute;
+    
+}
+
+.pol2{
+    margin-left: -104px;
+    margin-top: 30px;
+    position: absolute;
+    
+}
+
+ .pagina3{
+    background-color:#FAC5C5;
+    height: 557px;
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.25);
+}
+
+.title3{
+    font-size: 38px;
+    color:black;
+    margin-left: 125px;
+    margin-top: 206px;
+    position: absolute;
+    text-align: center; 
+}
+
+.gif3{
+    margin-left: 1350px;
+    margin-top: 57px;
+    position: absolute; 
+}
+.pagina4{
+    background-color: #E3FFCA;
+    height: 769px;
+    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.25);
+ }
+
+ .title4{
+    font-size: 38px;
+    color:black;
+    margin-left: 912px;
+    margin-top: 330px;
+    position: absolute;
+    text-align: center; 
+}
+
+.gif4{
+    margin-left: 150px;
+    margin-top: 127px;
+    position: absolute;
+    
+} 

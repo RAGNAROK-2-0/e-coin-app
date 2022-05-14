@@ -1,7 +1,7 @@
 #acessar{
     height: 1076.73px;
     background-repeat: no-repeat;
-    background-image: url('Rectangle\ 9.png');
+    background-image: url('../../imagens/Rectangle\ 9.png');
     background-position:-600px;
     background-position-y:-700px;
 }
@@ -9,7 +9,7 @@
 #abrirConta{
     height: 1076.73px;
     background-repeat: no-repeat;
-    background-image: url('Rectangle\ 17.png');
+    background-image: url('../../imagens/Rectangle\ 17.png');
     background-position:bottom;
     background-position-x:-153px;
 }
@@ -17,14 +17,14 @@
 #editar{
     height: 1076.73px;
     background-repeat: no-repeat;
-    background-image: url('Rectangle\ 18.png');
+    background-image: url('../../imagens/Rectangle\ 18.png');
     background-position-y: -1000px;
 }
   
 #extrato{
     height: 1076.73px;
     background-repeat: no-repeat;
-    background-image: url('Rectangle\ 22.png');
+    background-image: url('../../imagens/Rectangle\ 22.png');
     background-position: center;
 }
   

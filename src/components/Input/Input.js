@@ -1,6 +1,6 @@
 import './Input.css'
 
-function Inputs({tipoLabel,titulo, tamanho, tipoInput}) {
+function Input({tipoLabel,titulo, tamanho, tipoInput}) {
   return (
     <>
       <div className={tipoLabel}>{titulo}</div>
@@ -9,5 +9,5 @@ function Inputs({tipoLabel,titulo, tamanho, tipoInput}) {
   )
 }
 
-export default Inputs;
+export { Input };
 

@@ -15,7 +15,7 @@ function PaginaInicial(){
             <div className="title1">E-COIN</div>
             <div className="subtitle1">Aqui sua garrafa pet vale milhas</div>
             <div className="gif1"><img src={gif1}/></div>
-            <div className="button"><Botao corBotao='rosa' textoBotao='Veja como'/></div>
+            <div className="button1"><Botao corBotao='rosa' textoBotao='Veja como'/></div>
         </section>
 
         <section className="pagina2">
@@ -39,6 +39,7 @@ function PaginaInicial(){
             <div className="title4">Você ajuda o meio-ambiente e a
                 <br/>gente te ajuda a viajar.</div>
             <div className="gif4"><img src={gif4}/></div>
+            <div className="button2"><Botao corBotao='rosa' textoBotao='Se cadastre já'/></div>
         </section>
         </>
     );

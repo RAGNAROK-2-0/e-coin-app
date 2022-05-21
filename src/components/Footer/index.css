@@ -1,4 +1,46 @@
-.footer{
-    background-color: #FAC5C5;
-    min-height: 3rem;
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    min-height: 50px;
+    background: lightcyan;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: auto;
+    background: #FAC5C5;
+    min-height: 20%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer span {
+    display: table;
+    margin: 0 auto;
+}
+
+.tamanhoImg {
+    max-width: 30px;
+    max-height: 30px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.centraliza {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.distancia {
+    margin-bottom: 0.5em;
 }

@@ -2,4 +2,5 @@
     background-color: #000000;
     min-height: 3rem;
     position: relative;
+    z-index: 10;
 }

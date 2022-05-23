@@ -14,12 +14,8 @@ footer {
     margin-top: auto;
     background: #FAC5C5;
     min-height: 20%;
-}
-
-
-body {
-    display: flex;
-    flex-direction: column;
+    z-index: 100;
+    position: relative;
 }
 
 footer span {

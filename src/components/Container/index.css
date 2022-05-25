@@ -1,5 +1,6 @@
-.container{
+.containerp{
     background-color: #E3FFCA;
     display: flex;
     height: 100%;
+    overflow: hidden;
 }

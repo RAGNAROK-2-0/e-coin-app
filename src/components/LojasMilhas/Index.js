@@ -30,11 +30,11 @@ function LojasMilhas() {
       };
   
     return (
-        <div class="corFundo">
+        <div className="corFundo">
             <div>
                 CABEÇALHO
             </div>
-            <div class="fundo">
+            <div className="fundo">
                 <div>
                     <Lottie 
                         options={passagemAviao}
@@ -42,21 +42,21 @@ function LojasMilhas() {
                         width={400}
                     />
                 </div>
-                <div class="textos">
-                    <span class="txt1">
+                <div className="textos">
+                    <span className="txt1">
                         Pronto para começar a viajar?
                     </span>
-                    <span class="txt2">
+                    <span className="txt2">
                         Aqui estão as lojas que aceitam as nossas Milhas:
                     </span>
                 </div>
             </div>
-            <div class="lugarLojas">
-                <div class="areaBotao">
+            <div className="lugarLojas">
+                <div className="areaBotao">
                     <Botao textoBotao="Todos"corBotao="esquerdoRosa" />
                     <Botao textoBotao="Favoritos"corBotao="direitoTransparente" />
                 </div>
-                <div class="areaCards">
+                <div className="areaCards">
                     {cardsLojasLayout}
                 </div>
             </div>

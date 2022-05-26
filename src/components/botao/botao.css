@@ -91,3 +91,51 @@
 .pointer{
     cursor: pointer;
 }
+
+.esquerdoRosa {
+    background-color: #fac5c5;
+    font-family: roboto;
+    border: solid;
+    border-radius: 4px 0px 0px 4px;
+    border-color: #fac5c5;
+    padding: 5px;
+    font-size: 17px;
+    color: #000000;
+    box-shadow: 4px 4px 6px #00000059;
+}
+
+.esquerdoTransparente {
+    background-color: #fac5c500;
+    font-family: roboto;
+    border: solid;
+    border-radius: 4px 0px 0px 4px;
+    border-color: #fac5c5;
+    padding: 5px;
+    font-size: 17px;
+    color: #000000;
+    box-shadow: 4px 4px 6px #00000059;
+}
+
+.direitoRosa {
+    background-color: #fac5c5;
+    font-family: roboto;
+    border: solid;
+    border-radius: 0px 4px 4px 0px;
+    border-color: #fac5c5;
+    padding: 5px;
+    font-size: 17px;
+    color: #000000;
+    box-shadow: 4px 4px 6px #00000059;
+}
+
+.direitoTransparente {
+    background-color: #fac5c500;
+    font-family: roboto;
+    border: solid;
+    border-radius: 0px 4px 4px 0px;
+    border-color: #fac5c5;
+    padding: 5px;
+    font-size: 17px;
+    color: #000000;
+    box-shadow: 4px 4px 6px #00000059;
+}

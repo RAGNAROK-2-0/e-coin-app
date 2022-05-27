@@ -1,42 +1,56 @@
 body {
-    height: 100vh;
-    margin: 0;
+  height: 100vh;
+  margin: 0;
 }
 
 header {
-    min-height: 50px;
-    background: lightcyan;
+  min-height: 50px;
+  background: lightcyan;
 }
 
-footer {
+.footerRosa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: auto;
+  background: #fac5c5;
+  z-index: 100;
+  position: relative;
+  -webkit-box-shadow: 0px -11px 12px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px -11px 12px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px -11px 12px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footerAmarelo {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: auto;
-    background: #FAC5C5;
-    min-height: 20%;
+    background: #fac5c5;
     z-index: 100;
     position: relative;
-}
+    -webkit-box-shadow: 0px -11px 12px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px -11px 12px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px -11px 12px 0px rgba(0, 0, 0, 0.15);
+  }
 
 footer span {
-    display: table;
-    margin: 0 auto;
+  display: table;
+  margin: 0 auto;
 }
 
 .tamanhoImg {
-    max-width: 30px;
-    max-height: 30px;
-    min-width: 20px;
-    min-height: 20px;
+  max-width: 30px;
+  max-height: 30px;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 .centraliza {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
 .distancia {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }

@@ -2,7 +2,8 @@ import './index.css'
 import integrantesData from "../Footer/Integrantes.json";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Footer() {
+// Definir cor do Footer (footerRosa ou footerAmarelo)
+function Footer(CorFundo) {
     const integrantesLayout = [];
   
     integrantesData.data.forEach((data) => {
@@ -25,7 +26,7 @@ function Footer() {
     });
   
     return (
-      <footer>
+      <footer class={CorFundo}>
         <div class="container">
           <div class="row">
             <div class="col-md-1"></div>

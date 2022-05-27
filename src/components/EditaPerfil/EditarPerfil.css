@@ -1,0 +1,89 @@
+#editar{
+    background-color: #E3FFCA;
+}
+
+.pig{
+    margin-left: 557px;
+    margin-top: 170px;
+    position: absolute;
+    background-color: #FAE88D;
+}
+
+.title{
+    margin-left: 758px;
+    margin-top: 187px;
+    position: absolute;
+    font-size: 50px;
+    background-color: #FAE88D;
+    
+}
+
+.p{
+    background-color: #E3FFCA;
+    border:none;
+    width: 395px;
+    height: 70px;
+    border-radius:10px;
+    position: absolute;
+}
+
+.m{
+    background-color: #E3FFCA;
+    border:none;
+    width: 505px;
+    height: 70px;
+    border-radius:10px;
+    position: absolute;
+}
+
+.g{
+    background-color: #E3FFCA;
+    border:none;
+    width: 625px;
+    height: 70px;
+    border-radius:10px;
+    position: absolute;
+}
+
+#nome{
+    position: absolute;
+    margin-left: 295px;
+    margin-top: 388px;
+}
+
+#dataNasc{
+    position: absolute;
+    margin-left: 956px;
+    margin-top: 388px;
+}
+
+#email{
+    position: absolute;
+    margin-left: 295px;
+    margin-top: 522px;
+}
+
+#cpf{
+    position: absolute;
+    margin-left: 956px;
+    margin-top: 522px;
+}
+
+#senha{
+    position: absolute;
+    margin-left: 295px;
+    margin-top: 656px;
+}
+
+#confSenha{
+    position: absolute;
+    margin-left: 846px;
+    margin-top: 656px;
+}
+
+.button{
+    margin-left: 771px;
+    margin-top: 770px;
+    position: absolute;
+
+}

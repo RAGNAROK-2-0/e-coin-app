@@ -1,0 +1,160 @@
+.campoTitulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+}
+
+.campoTextos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.transferirMilhas {
+    font-size: 3rem;
+    font-family: roboto;
+    color: #62DD87;
+    font-weight: bold;
+}
+
+.escolheuLoja {
+    font-size: 1.2rem;
+    font-family: roboto;
+}
+
+.campoSvg {
+    margin-bottom: 3rem;
+}
+
+.tamSvg {
+    width: 200px;
+}
+
+.fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E3FFCA;
+}
+
+.cardRosa {
+    background-color: #FAC5C5;
+    display: flex;
+    padding: 3rem;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 4px 4px 6px #00000059;
+    margin-bottom: 2rem;
+}
+
+.campoTranf {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.campoImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campoLoja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seta {
+    width: 40%;
+}
+
+.datalhesLoja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.espacoInput {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.campoBtn {
+    margin-bottom: 2rem;
+}
+
+.campoDescricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tipoLetra {
+    font-size: 1rem;
+    font-family: roboto;
+}
+
+
+
+/* apagar daqui pra baixo */
+
+.clica {
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.card {
+    background-color: #FAC5C5;
+    width: 13rem;
+    height: 16rem;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 15px;
+    box-shadow: 4px 4px 6px #00000059;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.base {
+    background-color: #E3FFCA;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%) scale(1.5);
+}
+
+.loja {
+    color: #E3FFCA;
+    font-family: roboto;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.titulo {
+    display: flex;
+}
+
+.desc {
+    font-family: roboto;
+    font-size: 0.9rem;
+    color: black;
+}

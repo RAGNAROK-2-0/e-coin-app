@@ -88,7 +88,7 @@
     color: #000000;
 }
 
-.pointer{
+.pointer {
     cursor: pointer;
 }
 
@@ -138,4 +138,44 @@
     font-size: 17px;
     color: #000000;
     box-shadow: 4px 4px 6px #00000059;
+}
+
+.btnDireitoExtratoSelec {
+    border: solid #FAC5C5;
+    background-color: #FAC5C5;
+    font-size: 2.5vmin;
+    font-weight: bold;
+    padding: 1vmin 8vmin 1vmin 8vmin;
+    border-width: 1vmin 1vmin 0 1vmin;
+    border-radius: 0 6px 0 0;
+}
+
+.btnDireitoExtratoNSelec {
+    border: solid #FAC5C5;
+    background-color: #e3ffca;
+    font-size: 2.5vmin;
+    font-weight: bold;
+    padding: 1vmin 8vmin 1vmin 8vmin;
+    border-width: 1vmin 1vmin 0 1vmin;
+    border-radius: 0 6px 0 0;
+}
+
+.btnEsquerdoExtratoSelec {
+    border: solid #FAC5C5;
+    background-color: #FAC5C5;
+    font-size: 2.5vmin;
+    font-weight: bold;
+    padding: 1vmin 8vmin 1vmin 8vmin;
+    border-width: 1vmin 1vmin 0 1vmin;
+    border-radius: 6px 0 0 0;
+}
+
+.btnEsquerdoExtratoSelec {
+    border: solid #FAC5C5;
+    background-color: #e3ffca;
+    font-size: 2.5vmin;
+    font-weight: bold;
+    padding: 1vmin 8vmin 1vmin 8vmin;
+    border-width: 1vmin 1vmin 0 1vmin;
+    border-radius: 6px 0 0 0;
 }

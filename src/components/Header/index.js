@@ -1,14 +1,14 @@
 import "./index.css";
 //import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, Container} from "react-bootstrap";
-import gif1 from '../../imagens/gif_1.gif'
-import Botao from '../botao/index'
+//import gif1 from '../../imagens/gif_1.gif'
+//import Botao from '../botao/index'
 
 
 export function Header() {
   return (
     <header className="header">
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light=" expand="lg">
         <Container fluid>
           <Navbar.Brand href="">Logo</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

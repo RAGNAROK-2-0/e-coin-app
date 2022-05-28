@@ -1,6 +1,9 @@
 import './index.css'
 import integrantesData from "../Footer/Integrantes.json";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import github from "./github.png";
+import instagram from "./instagram.png";
+import linkedin from "./linkedin.png";
 
 // Definir cor do Footer (footerRosa ou footerAmarelo)
 function Footer(CorFundo) {
@@ -14,11 +17,30 @@ function Footer(CorFundo) {
           </div>
           <div class="row">
             {data.Sociais.map((item) => {
-              return (
-                <a href={item.Url} class="col-md-4 centraliza">
-                  <img class="tamanhoImg col-4" src={item.Imagem}></img>
-                </a>
-              );
+              let linkImagem = item.Imagem;
+              if( linkImagem == 1){
+                return (
+                  <a href={item.Url} class="col-md-4 centraliza">
+                    <img class="tamanhoImg col-4" src={github}></img>
+                  </a>
+                );
+              }else if(linkImagem == 2){
+                return (
+                  <a href={item.Url} class="col-md-4 centraliza">
+                    <img class="tamanhoImg col-4" src={linkedin}></img>
+                  </a>
+                );
+              }else {
+                return (
+                  <a href={item.Url} class="col-md-4 centraliza">
+                    <img class="tamanhoImg col-4" src={instagram}></img>
+                  </a>
+                );
+
+              }
+              
+              
+              
             })}
           </div>
         </div>

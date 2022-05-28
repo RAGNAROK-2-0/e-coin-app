@@ -1,10 +1,10 @@
 .header{
-    background-color: #ffff;
+    background-color: #000000;
     min-height: 3rem;
     position: relative;
     z-index: 10;
 }
 .fontColor{
-    color: #Ff5890 !important;
+    color: #FAC5C5 !important;
     font-size: 20px;
 }

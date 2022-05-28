@@ -29,7 +29,7 @@ function PaginaInicial(){
         </section>
 
         <section className="pagina3">
-            <div className="title3">No E-COIN você promove o fim correto a elas, e
+            <div className="title3">No E-COIN você promove o fim correto a elas e
                 <br/> ganha 100 milhas aéreas para cada garrafa pet
                 <br/>descartada em nossos postos.</div>
             <div className="gif3"><img src={gif3}/></div>

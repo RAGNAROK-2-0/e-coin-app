@@ -1,0 +1,182 @@
+.fundo {
+    background-color: #E3FFCA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.areaMeio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80vmax;
+    width: 95vmax;
+}
+
+.areaRodada {
+    background-color: #62DD87;
+    height: 80vmax;
+    width: 90vmax;
+    transform: rotate(-2.0deg);
+    display: flex;
+    position: absolute;
+    border-radius: 30px;
+    float: left;
+    z-index: 1;
+    box-shadow: 4px 4px 6px #00000059;
+}
+
+.areaExtrato {
+    z-index: 2;
+    position: relative;
+}
+
+.areaTabela {
+    background-color: #E3FFCA;
+    padding: 1rem;
+    height: 100vmin;
+    border-width: 1vmin;
+    border-style: solid;
+    border-color: #fac5c5;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 4px 4px 6px #00000059;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow:auto;
+}
+
+.trPadrao {
+    font-size: 2.8vmin;
+    font-family: roboto;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.trDia {
+    width: 20vmin;
+    text-align: center;
+}
+
+.trDesc {
+    width: 80vmin;
+}
+
+.trValor {
+    width: 30vmin;
+    text-align: center;
+}
+
+.tracejadoBottom {
+    border-bottom: 0.6vmin #ffc0cb;
+    border-bottom-style: dotted;
+}
+
+.tracejadoTop {
+    border-top: 0.6vmin #ffc0cb;
+    border-top-style: dotted;
+}
+
+.trCanto {
+    text-align: center;
+    font-size: 2vmin;
+    font-family: roboto;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.trMeio {
+    text-align: initial;
+    font-size: 2vmin;
+    font-family: roboto;
+    padding: 1rem 0rem 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.trMeioFim {
+    text-align: end;
+    font-size: 2vmin;
+    font-family: roboto;
+    padding: 1rem 0rem 0rem 0rem;
+    font-weight: bold;
+}
+
+.trCantoFim {
+    text-align: center;
+    font-size: 2vmin;
+    font-family: roboto;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.botaoPonto {
+    font-family: roboto;
+    font-size: 1.8rem;
+    background-color: #FAC5C5;
+    width: 6rem;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px #00000059;
+}
+
+.areaBotoes {
+    display: flex;
+}
+
+.areaAcimaTabela {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.historico {
+    font-size: 8vmin;
+    font-family: roboto;
+    color: #FAC5C5;
+    font-weight: bold;
+    text-shadow: 4px 4px 6px #00000059;
+}
+
+.areaSvg {
+    position: absolute;
+    margin-left: 70%;
+}
+
+.areaHistorico {
+    margin-bottom: 3rem;
+}
+
+.tituloExtrato {
+    font-family: roboto;
+    font-size: 2.2vmin;
+    font-weight: bold;
+}
+
+/* APAGAR */
+
+.cabecalho {
+    background-color: black;
+    color: white;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    z-index: 10;
+}
+
+.footer {
+    background-color: #FAE88D;
+    height: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    z-index: 10;
+}

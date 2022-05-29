@@ -8,6 +8,10 @@ header {
   background: lightcyan;
 }
 
+footer{
+  z-index: 1100;
+}
+
 .footerRosa {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -35,6 +39,7 @@ header {
 footer span {
   display: table;
   margin: 0 auto;
+
 }
 
 .tamanhoImg {

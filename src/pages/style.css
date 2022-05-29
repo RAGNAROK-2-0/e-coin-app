@@ -1,4 +1,4 @@
-.fundoForm{
+.ContentLogin{
     margin-left: 5rem;
     /* align-items: center; */
     /* justify-items: center; */
@@ -6,7 +6,7 @@
     top: 10rem;
 }
 
-.fundoForm form{
+.ContentLogin form{
     display: block;
     z-index: 1;
     position: relative;
@@ -17,7 +17,7 @@
     width: 50%;
     height:0;
     padding-bottom: 50%;
-    left: -25rem;
+    left: -10rem;
     top: -1rem;
     
     background: #FAE88D;

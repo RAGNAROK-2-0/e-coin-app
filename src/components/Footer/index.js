@@ -6,7 +6,7 @@ import instagram from "./instagram.png";
 import linkedin from "./linkedin.png";
 
 // Definir cor do Footer (footerRosa ou footerAmarelo)
-function Footer(CorFundo) {
+function Footer({CorFundo = 'footerRosa'}) {
     const integrantesLayout = [];
   
     integrantesData.data.forEach((data) => {

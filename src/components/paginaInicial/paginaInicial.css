@@ -20,8 +20,8 @@
 }
 
 .gif1{
-    margin-left: 1282px;
-    margin-top: 50px;
+    margin-left: 60%;
+    /* margin-top: 50px; */
     position: absolute;
     
 }
@@ -42,16 +42,16 @@
     font-size: 60px;
     color:#62DD87;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-left: 1180px;
-    margin-top: 301px;
+    margin-left: 60%;
+    margin-top: 10%;
     position: absolute;
 }
 
 .subtitle2{
-    font-size: 38px;
+    font-size: 2rem;
     color:black;
-    margin-left: 1046px;
-    margin-top: 406px;
+    margin-left: 60%;
+    margin-top: 20%;
     position: absolute;
     text-align: center;
 }
@@ -78,49 +78,49 @@
 
  .pagina3{
     background-color:#FAC5C5;
-    height: 557px;
+    height: 500px;
     box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.25);
 }
 
 .title3{
-    font-size: 38px;
+    font-size: 2rem;
     color:black;
-    margin-left: 125px;
-    margin-top: 206px;
+    margin-left: 2%;
+    margin-top: 20%;
     position: absolute;
     text-align: center; 
 }
 
 .gif3{
-    margin-left: 1350px;
+    margin-left: 60%;
     position: absolute; 
     
 }
 .pagina4{
     background-color: #E3FFCA;
     height: 769px;
-    box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.25);
+
  }
 
  .title4{
-    font-size: 38px;
+    font-size: 2rem;
     color:black;
-    margin-left: 912px;
-    margin-top: 330px;
+    margin-left: 60%;
+    margin-top:10%;
     position: absolute;
     text-align: center; 
 }
 
 .gif4{
-    margin-left: 150px;
+    margin-left: 1%;
     margin-top: 127px;
     position: absolute;
     
 } 
 
 .button2{
-    margin-left: 1130px;
-    margin-top: 430px;
+    margin-left: 75%;
+    margin-top: 25%;
     position: absolute;
 
 }

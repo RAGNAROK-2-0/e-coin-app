@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom';
 import './botao.css'
 
-function Botao({ corBotao, link, textoBotao }) {
+function Botao({ corBotao, link="/", textoBotao, type = 'button'}) {
 
     /*
     corBotao possui algumas possibilidades, sendo elas:
@@ -15,7 +16,8 @@ function Botao({ corBotao, link, textoBotao }) {
     */
 
     return (
-        <button className={`${corBotao} pointer`} type="button" onClick={() => { console.log(link, 'precisa ser implementado') }}>{textoBotao}</button>
+        
+        <button className={`${corBotao} pointer`} type={type}><Link to={link} className="padrao">{textoBotao}</Link></button>
     );
 
 

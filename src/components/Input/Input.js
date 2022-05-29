@@ -1,10 +1,10 @@
 import './Input.css'
 
-function Input({tipoLabel,titulo, estiloComponent, tipoInput}) {
+function Input({tipoLabel,titulo, estiloComponent, tipoInput,error,...prop}) {
   return (
     <>
       <div className={tipoLabel}>{titulo}</div>
-      <input className={estiloComponent} type={tipoInput} />
+      <input className={`${estiloComponent} ${error? 'error':''}`} type={tipoInput} {...prop}/>
     </>
   )
 }

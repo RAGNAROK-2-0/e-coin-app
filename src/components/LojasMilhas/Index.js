@@ -20,14 +20,14 @@ function LojasMilhas() {
       );
     });
 
-    const passagemAviao = {
-        loop: true,
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: {
-          preserveAspectRatio: "xMidYMid slice"
-        }
-      };
+    // const passagemAviao = {
+    //     loop: true,
+    //     autoplay: true,
+    //     animationData: animationData,
+    //     rendererSettings: {
+    //       preserveAspectRatio: "xMidYMid slice"
+    //     }
+    //   };
   
     return (
         <div className="corFundo">
@@ -36,11 +36,11 @@ function LojasMilhas() {
             </div>
             <div className="fundo">
                 <div>
-                    <Lottie 
+                    {/* <Lottie 
                         options={passagemAviao}
                         height={400}
                         width={400}
-                    />
+                    /> */}
                 </div>
                 <div className="textos">
                     <span className="txt1">

@@ -8,14 +8,14 @@ import animationData from './lf20_dntjgwj3.json';
 
 function TranferenciaMilhas(linkImg, nomeLoja, descLoja) {
 
-    const carteira = {
-        loop: true,
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice"
-        }
-    };
+    // const carteira = {
+    //     loop: true,
+    //     autoplay: true,
+    //     animationData: animationData,
+    //     rendererSettings: {
+    //         preserveAspectRatio: "xMidYMid slice"
+    //     }
+    // };
 
     return (
         <div className="fundo">
@@ -28,11 +28,11 @@ function TranferenciaMilhas(linkImg, nomeLoja, descLoja) {
                     <span className="escolheuLoja">Agora que você escolheu a loja que quer tranferir, só falta escolher o valor.</span>
                 </div>
                 <div className="campoSvg">
-                    <Lottie
+                    {/* <Lottie
                         options={carteira}
                         height={400}
                         width={400}
-                    />
+                    /> */}
                 </div>
             </div>
             <div className="cardRosa">

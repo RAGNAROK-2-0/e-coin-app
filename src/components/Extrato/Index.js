@@ -1,20 +1,25 @@
+import { useState, useContext } from 'react'
+
+import { Api } from '.../services/Api';
+
 import './Extrato.css'
 import Lottie from 'react-lottie';
 import Botao from '../botao/index'
 import Footer from '../Footer/index'
 import animationData from './lf20_sezwmi7u.json';
+import { useNavigate } from 'react-router-dom';
 
 
 function Extrato(linkImg, nomeLoja, descLoja) {
 
-    const porco = {
-        loop: true,
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice"
-        }
-    };
+    // const porco = {
+    //     loop: true,
+    //     autoplay: true,
+    //     animationData: animationData,
+    //     rendererSettings: {
+    //         preserveAspectRatio: "xMidYMid slice"
+    //     }
+    // };
 
     const linhasLayout = [];
 
@@ -71,11 +76,11 @@ function Extrato(linkImg, nomeLoja, descLoja) {
                                 <Botao corBotao="btnDireitoExtratoNSelec" textoBotao="Consumo de Milhas" link="" />
                             </div>
                             <div className="areaSvg">
-                                <Lottie
+                                {/* <Lottie
                                     options={porco}
                                     height={400}
                                     width={400}
-                                />
+                                /> */}
                             </div>
                         </div>
                     </div>

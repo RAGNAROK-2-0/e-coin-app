@@ -1,13 +1,11 @@
-import { useState, useContext } from 'react'
+// import { useState, useContext } from 'react'
 
-import { Api } from '.../services/Api';
+// import { Api } from '.../services/Api';
 
 import './Extrato.css'
-import Lottie from 'react-lottie';
 import Botao from '../botao/index'
-import Footer from '../Footer/index'
-import animationData from './lf20_sezwmi7u.json';
-import { useNavigate } from 'react-router-dom';
+// import animationData from './lf20_sezwmi7u.json';
+// import { useNavigate } from 'react-router-dom';
 
 
 function Extrato(linkImg, nomeLoja, descLoja) {
@@ -26,6 +24,8 @@ function Extrato(linkImg, nomeLoja, descLoja) {
     let valorFinal = 0;
     let valorSoma = 0;
     let valorSub = 0;
+
+    let linhasData;
 
     linhasData.data.forEach((data) => {
         linhasLayout.push(
@@ -59,9 +59,6 @@ function Extrato(linkImg, nomeLoja, descLoja) {
 
     return (
         <div className="fundo">
-            <div className="cabecalho">
-                CABEÇALHO
-            </div>
             <div className="areaMeio">
                 <div className="areaRodada"></div>
 
@@ -102,9 +99,6 @@ function Extrato(linkImg, nomeLoja, descLoja) {
                         </table>
                     </div>
                 </div>
-            </div>
-            <div className="footer">
-                <Footer />
             </div>
         </div>
     );

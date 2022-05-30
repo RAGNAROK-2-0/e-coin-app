@@ -4,7 +4,7 @@ import { Footer } from '../components/Footer';
 import { Container } from '../components/Container';
 import { LoginPage } from '../pages/LoginPage';
 import PaginaInicial from '../components/paginaInicial/paginaInicial';
-import Extrato from '../components/Extrato/Index';
+import { Extrato } from '../components/Extrato/Index';
 
 
 function Rotas() {

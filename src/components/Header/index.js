@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import Botao from "../botao/index";
 import { useContext } from "react";
 import { DataContext } from "../../context/DataContext";
-import gif_1 from "../../imagens/gif_1.gif";
+import gif_1 from "../../imagens/loginho.png";
 
 export function Header() {
   const { Credentials } = useContext(DataContext);
@@ -13,9 +13,8 @@ export function Header() {
       <header className="header">
         <Navbar bg="light=" expand="lg">
           <Container fluid>
-            <Navbar.Brand href="#home">E-COIN</Navbar.Brand>
             <Navbar.Brand href="">
-              <img width={150} height={150} src={gif_1} />
+              <img  src={gif_1} />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
@@ -25,9 +24,9 @@ export function Header() {
                 navbarScroll
               ></Nav>
               <Nav>
-                <Botao textoBotao="Como Funciona" corBotao="menu-preto" />
-                <Botao textoBotao="Acessar" corBotao="menu-preto" />
-                <Botao textoBotao="Abrir Conta" corBotao="rosa" />
+                <Botao textoBotao="Como Funciona" corBotao="preto" />
+                <Botao textoBotao="Acessar" corBotao="preto" />
+                <Botao textoBotao="Abrir Conta" corBotao="rosa" link="/login" />
               </Nav>
             </Navbar.Collapse>
           </Container>

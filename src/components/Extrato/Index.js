@@ -1,64 +1,48 @@
-<<<<<<< HEAD
-// import { useState, useContext } from 'react'
+import { useEffect, useState } from 'react'
+import { Api } from '../../services/Api';
 
-// import { Api } from '.../services/Api';
-
-=======
->>>>>>> parent of e46671a... tira os lottie :(
 import './Extrato.css'
 import Botao from '../botao/index'
-import Footer from '../Footer/index'
-import animationData from './lf20_sezwmi7u.json';
-
 
 function Extrato(linkImg, nomeLoja, descLoja) {
+    const [dadoApi, setDadoApi] = useState([]);
+    const [valorFinal, setValorFinal] = useState(0);
 
-    const porco = {
-        loop: true,
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice"
-        }
-    };
+    async function listaExtrato() {
+        await Api.get('statement/' + 47732751892, {
+        }).then(({ data }) => {
+            setDadoApi(data.statement)
+            calculaValores()
+        }).catch(err => {
+        })
+    }
 
-    const linhasLayout = [];
+    useEffect(() => {
+        listaExtrato()
+    }, []);
 
-    let valorFinal = 0;
-    let valorSoma = 0;
-    let valorSub = 0;
+    function calculaValores() {
+        let valorFinal = 0;
+        let valorSoma = 0;
+        let valorSub = 0;
+        dadoApi.map((item, index) => {
+            let amount = item.amount;
+            if (item.type === "deposit") {
+                valorSoma = valorSoma + amount;
+            } else {
+                let valor = amount.replace("-", "");
+                valorSub = valorSub - valor;
+            }
+            valorFinal = valorSoma - valorSub;
+        })
+        setValorFinal(valorFinal)
 
-    let linhasData;
 
-    linhasData.data.forEach((data) => {
-        linhasLayout.push(
-            data.Sociais.map((item) => {
+    }
 
-                let amount = item.amount;
-                let tipo = item.type;
 
-                if (tipo == "deposit") {
-                    valorSoma = valorSoma + amount;
-                } else {
-                    let valor = amount.replace("-", "");
-                    valorSub = valorSub - valor;
-                }
 
-                return (
-                    <tr>
-                        <td className="trCanto tracejadoBottom trDia">{item.dateCreated}</td>
-                        <td className="trMeio tracejadoBottom trDesc">
-                            <span className="tituloExtrato">{item.title}</span>
-                            <span className="">{item.description}</span>
-                        </td>
-                        <td className="trCanto tracejadoBottom trValor">{item.amount}</td>
-                    </tr>
-                );
-            })
-        );
-    });
 
-    valorFinal = valorSoma - valorSub;
 
     return (
         <div className="fundo">
@@ -76,11 +60,7 @@ function Extrato(linkImg, nomeLoja, descLoja) {
                                 <Botao corBotao="btnDireitoExtratoNSelec" textoBotao="Consumo de Milhas" link="" />
                             </div>
                             <div className="areaSvg">
-                                <Lottie
-                                    options={porco}
-                                    height={400}
-                                    width={400}
-                                />
+
                             </div>
                         </div>
                     </div>
@@ -91,7 +71,17 @@ function Extrato(linkImg, nomeLoja, descLoja) {
                                 <td className="trDesc tracejadoBottom trPadrao">Descrição</td>
                                 <td className="trValor tracejadoBottom trPadrao">Valor</td>
                             </tr>
-                            {linhasLayout}
+                            {dadoApi.map((item, index) => {
+                                return (
+                                    <tr key={index}>
+                                        <td className="trCanto tracejadoBottom trDia">{item.dateCreated}</td>
+                                        <td className="trMeio tracejadoBottom trDesc">
+                                            <span className="tituloExtrato">{item.title}</span>
+                                            <span className="">{item.description}</span>
+                                        </td>
+                                        <td className="trCanto tracejadoBottom trValor">{item.amount}</td>
+                                    </tr>)
+                            })}
                         </table>
                         <table>
                             <tr>

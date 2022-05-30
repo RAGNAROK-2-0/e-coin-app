@@ -4,7 +4,6 @@ import { Footer } from '../components/Footer';
 import { Container } from '../components/Container';
 import { LoginPage } from '../pages/LoginPage';
 import PaginaInicial from '../components/paginaInicial/paginaInicial';
-import { Extrato } from '../components/Extrato/Index';
 
 
 function Rotas() {
@@ -14,7 +13,6 @@ function Rotas() {
             <Routes>
                 <Route path="/login" element={<Container><LoginPage /></Container>} />
                 <Route path="/" element={<PaginaInicial />} />
-                <Route path="/statements" element={<Extrato />} />
             </Routes>
             <Footer />
         </BrowserRouter>

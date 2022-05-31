@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './EditarPerfil.css'
-import '../backgroundCard/BackgroundCard.css'
+import '../BackgroundCard/BackgroundCard.css'
 import pig from '../../imagens/pig.png'
 import { Input } from '../Input/Input'
 import '../Input/Input.css'

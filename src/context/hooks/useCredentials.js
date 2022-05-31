@@ -18,7 +18,7 @@ function useCredentials() {
         setCookiesJwt('jwt', jwt, { path: '/' })
         setJWT(jwt)
     }
-
+  
     const getCpfUser = () => CPF || CookiesCPF;
     const getJWT = () => JWT || CookiesJwt;
 

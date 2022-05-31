@@ -38,7 +38,7 @@ function PaginaInicial(){
             <div className="title4">Você ajuda o meio-ambiente e a
                 <br/>gente te ajuda a viajar.</div>
             <div className="gif4"><img src={gif4}/></div>
-            <div className="button2"><Botao corBotao='rosa' textoBotao='Se cadastre já' link="/login"/></div>
+            <div className="button2"><Botao corBotao='rosa' textoBotao='Se cadastre já' link="/edit"/></div>
         </section>
         </>
     );

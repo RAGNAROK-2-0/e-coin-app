@@ -1,10 +1,17 @@
 .header{
-    background-color: #000000;
+    background-color: #000;
     min-height: 3rem;
+    /* max-height: 8rem;; */
     position: relative;
     z-index: 10;
+
 }
+.gif_posicao_header{
+    position: absolute;
+
+}
+
 .fontColor{
     color: #FAC5C5 !important;
-    font-size: 20px;
+    font-size: 1rem;
 }

@@ -32,7 +32,7 @@ export function EditarPerfil() {
         if (senha === senhaConfirm) {
             setErroCpf(true)
             setErrorDesc('')
-            // createUser(data)
+            createUser(data)
         } else {
             setErrorDesc('senhas não conferem')
             setErroCpf(true)
@@ -57,12 +57,12 @@ export function EditarPerfil() {
 
             // Credentials.SetUser(decodeToken(data.jwt), data.jwt)
             // navigate('/');
-            setTextButton("Acessar")
+            setTextButton("Salvar")
         }).catch(err => {
 
-            console.log(err)
-            setErrorDesc("Usuário ou senha inválidos!")
-            setTextButton("Acessar")
+
+            setErrorDesc(err.response.data)
+            setTextButton("Salvar")
         })
     }
 

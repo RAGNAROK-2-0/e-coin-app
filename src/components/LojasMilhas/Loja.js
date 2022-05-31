@@ -2,7 +2,7 @@ import { useEffect, useState, useContext } from "react";
 import { Api } from "../../services/Api";
 import Lottie from "react-lottie";
 import animationData from "./lf30_editor_b7azmw1c";
-import { CardLojas } from "../CardLojas";
+import { CardLojas } from "../CardLojas/Index";
 import { useNavigate } from "react-router-dom";
 
 import { DataContext } from "../../context/DataContext";

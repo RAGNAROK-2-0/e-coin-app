@@ -1,46 +1,36 @@
+import { useEffect, useState } from 'react'
+import { Api } from '../../services/Api';
+
 import './CardLojas.css'
-import Lottie from 'react-lottie';
 import Botao from '../botao/index'
-import Footer from '../Footer/index'
-import animationData from './lf30_editor_b7azmw1c.json';
 
 
 function LojasMilhas() {
-    const cardsLojasLayout = [];
-  
-    cardsLojasData.data.forEach((data) => {
-      cardsLojasLayout.push(
-        <CardLojas 
-            pagTransferencia={data.linkTranf} 
-            linkImg={data.linkImg} 
-            nomeLoja={data.nomeLoja} 
-            descricao={data.descLoja} 
-            favorito={data.favorito} 
-        />
-      );
-    });
 
-    const passagemAviao = {
-        loop: true,
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: {
-          preserveAspectRatio: "xMidYMid slice"
-        }
-      };
+    const [cardLoja, setCardLoja] = useState([]);
+
+    const { Credentials } = useContext(DataContext);
+
+    const [cpf, setCPF] = useState();
+
+    useEffect(() => {
+        setCPF(Credentials.getCpfUser());
+        listaLojas()
+    }, []);
+
+    async function listaLojas() {
+        await Api.get('stores')
+        .then(({ data }) => {
+            setCardLoja(data.statement)
+        }).catch(err => {
+        })
+    }
   
     return (
         <div className="corFundo">
-            <div>
-                CABEÇALHO
-            </div>
             <div className="fundo">
                 <div>
-                    <Lottie 
-                        options={passagemAviao}
-                        height={400}
-                        width={400}
-                    />
+                 
                 </div>
                 <div className="textos">
                     <span className="txt1">
@@ -53,15 +43,18 @@ function LojasMilhas() {
             </div>
             <div className="lugarLojas">
                 <div className="areaBotao">
-                    <Botao textoBotao="Todos"corBotao="esquerdoRosa" />
-                    <Botao textoBotao="Favoritos"corBotao="direitoTransparente" />
+                    <Botao textoBotao="Todos" corBotao="esquerdoRosa" onClick=""/>
+                    <Botao textoBotao="Favoritos" corBotao="direitoTransparente" onClick=""/>
                 </div>
                 <div className="areaCards">
-                    {cardsLojasLayout}
+                    {cardLoja.map((item, index) => <CardLojas 
+                        pagTransferencia={'/Transferencia'} 
+                        linkImg={item.imgLoja} 
+                        nomeLoja={item.nomeLoja} 
+                        descricao={item.descricaoLoja} 
+                        favorito={item.filter(filter => filter.cpf == cpf) ? 'S' : 'N'}></CardLojas>
+                    )}
                 </div>
-            </div>
-            <div>
-                <Footer />
             </div>
         </div>
     );

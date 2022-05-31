@@ -4,6 +4,19 @@ function CardLojas({pagTransferencia, linkImg, nomeLoja, descricao, favorito = '
 
     // favorito = S ou N (informar se esta favoritado com S ou N)
 
+    const [favoritado, setFavoritado] = useState(favorito);
+
+    async function favoritaLoja() {
+        await Api.patch('updateStore/', {
+            idLoja: "1", 
+            cpf: "22134653043" 
+        }).then(({ data }) => {
+            favoritado = 'S'
+        }).catch(err => {
+        })
+        setFavoritado(favoritado);
+    }
+
     return (
         <a className="clica" href={pagTransferencia}>
             <div className="card">
@@ -12,9 +25,9 @@ function CardLojas({pagTransferencia, linkImg, nomeLoja, descricao, favorito = '
                 </div>
                 <div className="titulo">
                     <span className="loja">{nomeLoja}</span>
-                    <span className={`material-icons-outlined ${favorito}`}>
+                    <a className={`material-icons-outlined ${favoritado}`} onClick={favoritaLoja}>
                         favorite
-                    </span>
+                    </a>
                 </div>
                 <span className="desc">{descricao}</span>
             </div>

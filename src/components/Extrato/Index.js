@@ -4,7 +4,7 @@ import { Api } from '../../services/Api';
 import './Extrato.css'
 import Botao from '../botao/index'
 
-function Extrato(linkImg, nomeLoja, descLoja) {
+function Extrato() {
     const [dadoApi, setDadoApi] = useState([]);
     const [valorFinal, setValorFinal] = useState(0);
 

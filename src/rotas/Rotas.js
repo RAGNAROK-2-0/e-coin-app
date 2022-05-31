@@ -5,7 +5,7 @@ import { Container } from '../components/Container';
 import { LoginPage } from '../pages/LoginPage';
 import PaginaInicial from '../components/paginaInicial/paginaInicial';
 import EditarPerfil from '../components/EditaPerfil/EditarPerfil';
-import {Extrato} from '../components/Extrato/index';
+import {Extrato} from '../components/Extrato/Index';
 
 
 

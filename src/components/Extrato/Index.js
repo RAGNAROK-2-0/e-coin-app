@@ -3,7 +3,7 @@ import { Api } from "../../services/Api";
 import { DataContext } from "../../context/DataContext";
 
 import "./Extrato.css";
-import Botao from "../Botao/index";
+import Botao from "../Botao/Botao";
 
 function Extrato() {
   const [dadoApi, setDadoApi] = useState([]);

@@ -5,7 +5,7 @@ import pol2 from '../../imagens/Polygon 2.png'
 import gif3 from '../../imagens/gif_3.gif'
 import gif4 from '../../imagens/gif_4.gif'
 import './paginaInicial.css'
-import Botao from '../Botao/index'
+import Botao from '../Botao/Botao'
 
 function PaginaInicial(){
     return(

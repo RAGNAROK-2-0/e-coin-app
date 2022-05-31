@@ -1,5 +1,5 @@
 import "./TransferenciaMilha.css";
-import Botao from "../Botao/index";
+import Botao from "../Botao/Botao";
 import { Input } from "../Input/Input";
 import { DataContext } from "../../context/DataContext";
 import { useState, useEffect, useContext } from "react";

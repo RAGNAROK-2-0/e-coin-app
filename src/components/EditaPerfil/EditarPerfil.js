@@ -4,7 +4,7 @@ import '../backgroundCard/BackgroundCard.css'
 import pig from '../../imagens/pig.png'
 import { Input } from '../Input/Input'
 import '../Input/Input.css'
-import Botao from '../Botao/index'
+import Botao from '../Botao/Botao'
 import { Api } from '../../services/Api'
 import { useNavigate } from 'react-router-dom';
 

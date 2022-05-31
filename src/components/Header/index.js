@@ -1,6 +1,6 @@
 import "./index.css";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import Botao from "../Botao/index";
+import Botao from "../Botao/Botao";
 import { useContext } from "react";
 import { DataContext } from "../../context/DataContext";
 import gif_1 from "../../imagens/loginho.png";

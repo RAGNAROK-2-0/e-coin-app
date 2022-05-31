@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { DataContext } from "../../context/DataContext";
 
 import "./LojasMilhas.css";
-import Botao from "../Botao/index";
+
 
 function LojasMilhas() {
 

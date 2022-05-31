@@ -4,8 +4,9 @@ import '../backgroundCard/BackgroundCard.css'
 import pig from '../../imagens/pig.png'
 import { Input } from '../Input/Input'
 import '../Input/Input.css'
-import Botao from '../botao/index'
+import Botao from '../Botao/index'
 import { Api } from '../../services/Api'
+import { useNavigate } from 'react-router-dom';
 
 export function EditarPerfil() {
     const [nomeCompl, setnomeCompl] = useState('');
@@ -17,6 +18,7 @@ export function EditarPerfil() {
     const [erroCpf, setErroCpf] = useState(false);
     const [errorDesc, setErrorDesc] = useState('');
     const [textButton, setTextButton] = useState('Salvar');
+    const navigate = useNavigate()
 
     function handleSubmitEditForm(e) {
         e.preventDefault();
@@ -56,7 +58,7 @@ export function EditarPerfil() {
             console.log(data)
 
             // Credentials.SetUser(decodeToken(data.jwt), data.jwt)
-            // navigate('/');
+            navigate('/login');
             setTextButton("Salvar")
         }).catch(err => {
 

@@ -1,38 +1,36 @@
-import './CardLojas.css';
+import { useState } from "react";
+import { Api } from "../../services/Api";
+import { useNavigate } from "react-router-dom";
 
-function CardLojas({pagTransferencia, linkImg, nomeLoja, descricao, favorito = 'N'}) {
+import "./CardLojas.css";
 
-    // favorito = S ou N (informar se esta favoritado com S ou N)
+function CardLojas({
+  pagTransferencia,
+  linkImg,
+  nomeLoja,
+  descricao,
+  favorito = "N",
+  ...rest
+  
+}) {
+  return (
+    <a className="clica2 " {...rest}>
+      <div className="card2">
+        <div className="base2">
+          <img className="img2" src={linkImg} />
+        </div>
+        <div className="titulo2">
+          <span className="loja2">
+            {nomeLoja}
+          </span>
 
-    const [favoritado, setFavoritado] = useState(favorito);
+        </div>
+        <span className="desc2">
+          {descricao}
+        </span>
+      </div>
+    </a>
+  );
+}
 
-    async function favoritaLoja() {
-        await Api.patch('updateStore/', {
-            idLoja: "1", 
-            cpf: "22134653043" 
-        }).then(({ data }) => {
-            favoritado = 'S'
-        }).catch(err => {
-        })
-        setFavoritado(favoritado);
-    }
-
-    return (
-        <a className="clica" href={pagTransferencia}>
-            <div className="card">
-                <div className="base">
-                    <img className="img" src={linkImg}></img>
-                </div>
-                <div className="titulo">
-                    <span className="loja">{nomeLoja}</span>
-                    <a className={`material-icons-outlined ${favoritado}`} onClick={favoritaLoja}>
-                        favorite
-                    </a>
-                </div>
-                <span className="desc">{descricao}</span>
-            </div>
-        </a>
-    );
-};
-
-export default CardLojas;
+export { CardLojas };

@@ -6,6 +6,8 @@ import { LoginPage } from '../pages/LoginPage';
 import PaginaInicial from '../components/paginaInicial/paginaInicial';
 import EditarPerfil from '../components/EditaPerfil/EditarPerfil';
 import {Extrato} from '../components/Extrato/Index';
+import {LojasMilhas} from '../components/LojasMilhas'
+import {TranferenciaMilhas} from '../components/TransferenciaMilha'
 
 
 
@@ -16,8 +18,12 @@ function Rotas() {
             <Routes>
                 <Route path="/login" element={<Container><LoginPage /></Container>} />
                 <Route path="/" element={<PaginaInicial />} />
-                <Route path="/statement" element={<Container><Extrato /></Container>} />
+                <Route path="/statement" element={<Extrato />} />
                 <Route path="/edit" element={<EditarPerfil/>} />
+                <Route path="/store" element={<Container><LojasMilhas/></Container>} />
+                <Route path="/send" element={<Container><TranferenciaMilhas/></Container>}>
+                    <Route path=":id" element={<Container><TranferenciaMilhas/></Container>} />
+                </Route>
             </Routes>
             <Footer />
         </BrowserRouter>

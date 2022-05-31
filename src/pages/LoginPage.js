@@ -2,7 +2,7 @@ import { useState, useContext } from 'react'
 
 import { Api } from '../services/Api';
 
-import Botao from '../components/botao/index'
+import Botao from '../components/Botao/index'
 import { Input } from '../components/Input/Input'
 import { DataContext } from '../context/DataContext'
 import { decodeToken } from "react-jwt";

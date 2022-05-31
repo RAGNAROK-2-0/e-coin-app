@@ -6,7 +6,8 @@
     align-items: center;
     position: relative;
     height: 80vmax;
-    width: 95vmax;
+    /* width: 95vmax; */
+    background-color: #E3FFCA;
 }
 
 .areaRodada {

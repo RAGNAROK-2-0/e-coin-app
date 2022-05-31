@@ -1,4 +1,4 @@
-.fundo {
+.fundo2 {
     background-color: #62DD87;
     display: flex;
     flex-direction: row;
@@ -27,10 +27,13 @@
 
 .corFundo {
     background-color: #E3FFCA;
+    width: 100%;
+/* margin-bottom: 1000000px; */
+
 }
 
 .svg {
-    width: 350px; 
+    width: 40rem; 
     height: 350px;
 }
 

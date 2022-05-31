@@ -1,0 +1,186 @@
+.rosa {
+  background-color: #fac5c5;
+  font-family: roboto;
+  border: solid;
+  border-radius: 4px;
+  border-color: #fac5c5;
+  padding: 3px;
+  font-size: 15px;
+  box-shadow: 4px 4px 6px #00000059;
+}
+
+.verde {
+  background-color: #62dd87;
+  font-family: roboto;
+  border: solid;
+  border-radius: 4px;
+  border-color: #62dd87;
+  padding: 3px;
+  font-size: 15px;
+  box-shadow: 4px 4px 6px #00000059;
+}
+
+.verde-claro {
+  background-color: #e3ffca;
+  font-family: roboto;
+  border: solid;
+  border-radius: 4px;
+  border-color: #e3ffca;
+  padding: 3px;
+  font-size: 15px;
+  box-shadow: 4px 4px 6px #00000059;
+}
+
+.amarelo {
+  background-color: #fae88d;
+  font-family: roboto;
+  border: solid;
+  border-radius: 4px;
+  border-color: #fae88d;
+  padding: 3px;
+  font-size: 15px;
+  box-shadow: 4px 4px 6px #00000059;
+}
+
+.preto {
+  background-color: #000000;
+  font-family: roboto;
+  border: solid;
+  border-radius: 4px;
+  border-color: #000000;
+  padding: 3px;
+  font-size: 15px;
+  box-shadow: 4px 4px 6px #00000059;
+  color: #fac5c5;
+}
+
+.transparente {
+  background-color: #fac5c500;
+  font-family: roboto;
+  border: solid;
+  border-radius: 4px;
+  border-color: #fac5c5;
+  padding: 3px;
+  font-size: 15px;
+  box-shadow: 4px 4px 6px #00000059;
+  color: #000000;
+}
+
+.menu-rosa {
+  background-color: #fac5c500;
+  font-family: roboto;
+  border: solid;
+  border-radius: 4px;
+  border-color: #fac5c500;
+  padding: 3px;
+  font-size: 15px;
+  color: #fac5c5;
+}
+
+.menu-preto {
+  background-color: #fac5c500;
+  font-family: roboto;
+  border: solid;
+  border-radius: 4px;
+  border-color: #fac5c500;
+  padding: 3px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.esquerdoRosa {
+  background-color: #fac5c5;
+  font-family: roboto;
+  border: solid;
+  border-radius: 4px 0px 0px 4px;
+  border-color: #fac5c5;
+  padding: 5px;
+  font-size: 17px;
+  color: #000000;
+  box-shadow: 4px 4px 6px #00000059;
+}
+
+.esquerdoTransparente {
+  background-color: #fac5c500;
+  font-family: roboto;
+  border: solid;
+  border-radius: 4px 0px 0px 4px;
+  border-color: #fac5c5;
+  padding: 5px;
+  font-size: 17px;
+  color: #000000;
+  box-shadow: 4px 4px 6px #00000059;
+}
+
+.direitoRosa {
+  background-color: #fac5c5;
+  font-family: roboto;
+  border: solid;
+  border-radius: 0px 4px 4px 0px;
+  border-color: #fac5c5;
+  padding: 5px;
+  font-size: 17px;
+  color: #000000;
+  box-shadow: 4px 4px 6px #00000059;
+}
+
+.direitoTransparente {
+  background-color: #fac5c500;
+  font-family: roboto;
+  border: solid;
+  border-radius: 0px 4px 4px 0px;
+  border-color: #fac5c5;
+  padding: 5px;
+  font-size: 17px;
+  color: #000000;
+  box-shadow: 4px 4px 6px #00000059;
+}
+
+.btnDireitoExtratoSelec {
+  border: solid #fac5c5;
+  background-color: #fac5c5;
+  font-size: 2.5vmin;
+  font-weight: bold;
+  padding: 1vmin 8vmin 1vmin 8vmin;
+  border-width: 1vmin 1vmin 0 1vmin;
+  border-radius: 0 6px 0 0;
+}
+
+.btnDireitoExtratoNSelec {
+  border: solid #fac5c5;
+  background-color: #e3ffca;
+  font-size: 2.5vmin;
+  font-weight: bold;
+  padding: 1vmin 8vmin 1vmin 8vmin;
+  border-width: 1vmin 1vmin 0 1vmin;
+  border-radius: 0 6px 0 0;
+}
+
+.btnEsquerdoExtratoSelec {
+  border: solid #fac5c5;
+  background-color: #fac5c5;
+  font-size: 2.5vmin;
+  font-weight: bold;
+  padding: 1vmin 8vmin 1vmin 8vmin;
+  border-width: 1vmin 1vmin 0 1vmin;
+  border-radius: 6px 0 0 0;
+}
+
+.btnEsquerdoExtratoSelec {
+  border: solid #fac5c5;
+  background-color: #e3ffca;
+  font-size: 2.5vmin;
+  font-weight: bold;
+  padding: 1vmin 8vmin 1vmin 8vmin;
+  border-width: 1vmin 1vmin 0 1vmin;
+  border-radius: 6px 0 0 0;
+}
+
+.padrao {
+  text-decoration: none;
+  color: inherit;
+}

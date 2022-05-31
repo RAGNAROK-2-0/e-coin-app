@@ -6,7 +6,7 @@ import { LoginPage } from '../pages/LoginPage';
 import PaginaInicial from '../components/paginaInicial/paginaInicial';
 import EditarPerfil from '../components/EditaPerfil/EditarPerfil';
 import {Extrato} from '../components/Extrato/Index';
-import {LojasMilhas} from '../components/LojasMilhas'
+import {LojasMilhas} from '../components/LojasMilhas/Loja'
 import {TranferenciaMilhas} from '../components/TransferenciaMilha'
 
 

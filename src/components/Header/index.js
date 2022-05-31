@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { DataContext } from "../../context/DataContext";
 import gif_1 from "../../imagens/loginho.png";
 import {useEffect,useState} from 'react'
-
+import { Link } from 'react-router-dom';
 export function Header() {
   const { Credentials } = useContext(DataContext);
   const isAuth = true;
@@ -16,7 +16,9 @@ export function Header() {
         <Navbar bg="light=" expand="lg">
           <Container fluid>
             <Navbar.Brand href="">
+            <Link  to={'/'}>
               <img  src={gif_1} />
+            </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">

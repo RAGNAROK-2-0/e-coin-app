@@ -1,13 +1,15 @@
 import "./index.css";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import Botao from "../botao/index";
+import Botao from "../Botao/index";
 import { useContext } from "react";
 import { DataContext } from "../../context/DataContext";
 import gif_1 from "../../imagens/loginho.png";
+import {useEffect,useState} from 'react'
 
 export function Header() {
   const { Credentials } = useContext(DataContext);
-  const isAuth = !!Credentials.getCpfUser();
+  const isAuth = true;
+
   if (isAuth) {
     return (
       <header className="header">
@@ -24,9 +26,9 @@ export function Header() {
                 navbarScroll
               ></Nav>
               <Nav>
-                <Botao textoBotao="Como Funciona" corBotao="preto" />
-                <Botao textoBotao="Acessar" corBotao="preto" />
-                <Botao textoBotao="Abrir Conta" corBotao="rosa" link="/login" />
+                <Botao textoBotao="Usar milhas" corBotao="preto"  link="/store" />
+                <Botao textoBotao="Acessar" corBotao="preto"  link="/login" />
+                <Botao textoBotao="Abrir Conta" corBotao="rosa" link="/edit" />
               </Nav>
             </Navbar.Collapse>
           </Container>

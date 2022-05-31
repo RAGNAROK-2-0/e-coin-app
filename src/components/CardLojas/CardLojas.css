@@ -1,9 +1,9 @@
-.clica {
+.clica2 {
     text-decoration: none;
     margin: 1rem;
 }
 
-.card {
+.card2 {
     background-color: #FAC5C5;
     width: 13rem;
     height: 16rem;
@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-.base {
+.base2 {
     background-color: #E3FFCA;
     border-radius: 50%;
     width: 150px;
@@ -28,7 +28,7 @@
     margin-bottom: 1.5rem;
 }
 
-.img {
+.img2 {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -36,7 +36,7 @@
     transform: translate(0, -50%) scale(1.5);
 }
 
-.loja {
+.loja2 {
     color: #E3FFCA;
     font-family: roboto;
     font-size: 1.3rem;
@@ -44,14 +44,15 @@
     margin-right: 1rem;
 }
 
-.titulo {
+.titulo2 {
     display: flex;
 }
 
-.desc {
+.desc2 {
     font-family: roboto;
     font-size: 0.9rem;
     color: black;
+    text-align: center;
 }
 
 .N {
